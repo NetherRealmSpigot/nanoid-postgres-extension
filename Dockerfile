@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=postgres:16-alpine
+ARG BASE_IMAGE=postgres:16.9-alpine3.22
 FROM $BASE_IMAGE
 
 COPY . /tmp/ext
